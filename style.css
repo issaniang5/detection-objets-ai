@@ -1,6 +1,29 @@
 body {
     text-align: center;
+    background-image: url('https://deeplobe.ai/wp-content/uploads/2023/06/Object-detection-Real-world-applications-and-benefits.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    color: white;
+    font-size: large;
+    
 }
+
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Overlay color with transparency */
+    z-index: -1; /* Places it behind the content */
+}
+
+
 
 video {
     width: 0px;
