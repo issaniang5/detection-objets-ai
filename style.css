@@ -12,6 +12,24 @@ body {
     
 }
 
+#loadingText {
+    font-size: 24px;
+    color: white;
+    animation: blinkingText 1.5s infinite; /* Infinite blinking animation */
+  }
+
+  @keyframes blinkingText {
+    0% {
+      opacity: 1; /* Fully visible */
+    }
+    50% {
+      opacity: 0; /* Fully invisible */
+    }
+    100% {
+      opacity: 1; /* Fully visible */
+    }
+  }
+
 body::before {
     content: '';
     position: absolute;
