@@ -1,6 +1,6 @@
 # 🤖 Détection d'objets par IA
 
-![AI Object Detection Image](./Images/image_read.md.jpeg)
+![AI Object Detection](image_read.md.jpeg)
 
 
 
