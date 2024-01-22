@@ -1,6 +1,6 @@
 # 🤖 Détection d'objets par IA
 
-<img src='https://github.com/issaniang5/detection-objets-ai/blob/main/image%20read.md.jpeg' height=800px width=800px></img>
+<img src='https://github.com/issaniang5/detection-objets-ai/blob/main/Images/image%20read.md.jpeg' height=500px width=500px></img>
 
 
 
