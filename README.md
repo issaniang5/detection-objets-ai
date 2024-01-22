@@ -1,4 +1,9 @@
 # 🤖 Détection d'objets par IA
+
+![AI Object Detection Image](./Images/image_read.md.jpeg)
+
+
+
 ## 👋 À propos de ce projet
 Ceci est une application web de détection d'objets basée sur l'intelligence artificielle. Vous pouvez l'utiliser directement dans votre navigateur. Cette application utilise la caméra de votre appareil pour détecter les objets.
 
