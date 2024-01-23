@@ -19,20 +19,22 @@
   <br><br>
   <table>
     <tr>
-      <td>Détecter des objets:</td>
+      <td>🔍  Détecter des objets: </td>
       <td>
         <div class="switch">
           <label>
-            Désactivé
-            <input type="checkbox" id="ai" disabled>
+            <span id="status-text-deactivated" style="color: red;">Désactivé</span>
+            <input type="checkbox" id="ai">
             <span class="lever"></span>
-            Activé
+            <span id="status-text-activated" style="color: gray;">Activé</span>
           </label>
         </div>
+        
+        
       </td>
     </tr>
     <tr>
-      <td>FPS:</td>
+      <td>🎮  FPS:</td>
       <td>
         <p class="range-field">
           <input type="range" id="fps" min="1" max="60" value="50">

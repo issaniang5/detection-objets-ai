@@ -1,5 +1,22 @@
 document.getElementById("ai").addEventListener("change", toggleAi)
 document.getElementById("fps").addEventListener("input", changeFps)
+const checkbox = document.getElementById('ai');
+const statusTextActivated = document.getElementById('status-text-activated');
+const statusTextDeactivated = document.getElementById('status-text-deactivated');
+
+
+checkbox.addEventListener('change', function() {
+    if (checkbox.checked) {
+  
+        statusTextActivated.style.color = "green"; 
+        statusTextDeactivated.style.color = "gray"; 
+    } else {
+        
+        statusTextActivated.style.color = "gray"; 
+        statusTextDeactivated.style.color = "red"; 
+    }
+});
+
 
 const video = document.getElementById("video");
 const c1 = document.getElementById('c1');
