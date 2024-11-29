@@ -1,4 +1,4 @@
-# 🤖 Détection d'objets par AI
+# 🤖 Détection d'objets par IA
 
 <img src='https://github.com/issaniang5/detection-objets-ai/blob/main/Images/image%20read.md.jpeg' height=500px width=800px></img>
 
